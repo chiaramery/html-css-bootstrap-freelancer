@@ -1,0 +1,72 @@
+/* COMMON */
+img{
+    max-width: 100%;
+}
+:root{
+    /* Colors */
+    --navbar: rgb(46 63 79);
+    --jumbotron: rgb(61 188 156);
+    --footer: rgb(61 86 107);
+    --footer-bottom: rgb(46 63 79);;
+}
+section{
+    padding: 2em 0;
+}
+/* HEADER */
+header{
+    height: 5em;
+    line-height: 5em;
+    background-color: var(--navbar);
+    color: white;
+}
+.nav-menu ul{
+    list-style-type: none;
+}
+.nav-menu li{
+    margin: 0 1em;
+}
+/* MAIN */
+/* Jumbotron */
+#jumbotron{
+    color: white;
+    background-color: var(--jumbotron);
+}
+.image img{
+    width: 50%;
+}
+#about{
+    color: white;
+    background-color: var(--jumbotron);
+}
+/* Contact */
+#contact ul{
+    list-style-type: none;
+}
+#contact li{
+    margin: 0 1em;
+}
+#contact li{
+    border-bottom: 1px solid black;
+}
+.green{
+    color: white;
+    background-color: var(--jumbotron);
+}
+/* FOOTER */
+footer{
+    color: white;
+}
+footer h4,
+footer p,
+footer .web i{
+    padding-bottom: 1em;
+}
+.footer-top{
+    background-color: var(--footer);
+}
+.footer-bottom{
+    background-color: var(--footer-bottom);
+}
+.web{
+    font-size: 2em;
+}
