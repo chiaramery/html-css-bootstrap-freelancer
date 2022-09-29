@@ -38,10 +38,18 @@ section{
 .nav-menu li{
     margin: 0 1em;
 }
-
+.form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+.form-control:focus{
+    box-shadow: none;
+}
 /* MAIN */
 /* Jumbotron */
-.line-star{
+.ms-line-star{
     width: 10%;
     height: 4px;
     border-radius: 4px;
@@ -68,6 +76,6 @@ footer .web i{
     padding: 2rem 0;
     background-color: var(--footer-bottom);
 }
-.web{
+.ms-web{
     font-size: 2em;
 }
